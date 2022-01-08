@@ -1,0 +1,75 @@
+.Home {
+  font-family: sans-serif;
+}
+.Home ul.fLists {
+  list-style: none;
+  padding: 0px 50px;
+}
+.Home ul.fLists li {
+  margin: 10px 0px;
+  padding: 5px 0px;
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Home ul.fLists li svg {
+  margin-right: 10px;
+  cursor: pointer;
+}
+.Home ul.fLists li img {
+  margin-right: 10px;
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+}
+ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+ul.breadcrumb li {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  border-bottom: none;
+  padding: 0px;
+  margin: 0px;
+}
+ul.breadcrumb li + li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+ul.breadcrumb li p {
+  color: #0275d8;
+  text-decoration: none;
+  cursor: pointer;
+  margin: 0px;
+}
+ul.breadcrumb li p:hover {
+  color: #01447e;
+}
+.sec_1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Home button.logout {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1;
+  padding: 20px 15px;
+  border: none;
+  cursor: pointer;
+  background-color: #0061fe;
+  color: #ffffff;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

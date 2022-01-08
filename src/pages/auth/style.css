@@ -1,0 +1,25 @@
+.auth {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.auth .access_denied {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.auth .access_denied button {
+  padding: 15px 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #0061fe;
+  color: #ffffff;
+  min-width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
