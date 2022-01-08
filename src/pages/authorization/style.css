@@ -1,18 +1,21 @@
-.App {
+.authorization {
   width: 100vw;
-  height: 100vh;;
+  height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.App a {
+.authorization a {
   text-decoration: none;
   padding: 15px 10px;
   border-radius: 5px;
-  background-color: #0061FE;
+  background-color: #0061fe;
   color: #ffffff;
   min-width: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.authorization a svg{
+  margin-left: 10px;
 }
